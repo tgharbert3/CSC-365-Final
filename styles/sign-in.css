@@ -11,6 +11,7 @@ section {
     grid-template-areas: 
     "account account"
     "login create";
+    margin-bottom: .5rem;
 }
 
 h2 {
