@@ -1,0 +1,48 @@
+main {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 30%;
+    display: grid;
+    grid-template-areas: 
+    "account account"
+    "login create";
+}
+
+h2 {
+    grid-area: account;
+    text-align: center;
+}
+
+#login {
+    grid-area: login;
+    width: 50%;
+}
+
+#create {
+    grid-area: create;
+    text-align: right;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+form {
+    width: 30% ;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+label {
+    text-align: right;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}

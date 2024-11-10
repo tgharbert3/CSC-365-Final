@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Octane Collegiate</title>
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/sign-in.css">
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
                 <h2>Octane Collegiate</h2>
                 <h3>Your Home for Collegiate Apex</h3>
             </div>
-            <h4><a>Sign-In / Register</a></h4>
+            <h4><a href="index.html" >Sign-In / Register</a></h4>
     </header>
     <nav>
         <ul>
@@ -24,6 +25,19 @@
         </ul>
     </nav>
     <main>
+        <section>
+            <h2>Account</h2>
+            <h3 id="login" class="active"><a href="index.html">Login</a></h3>
+            <h3 id="create"><a>Create Account</a></h3>
+        </section>
+        <Form>
+            <input type="email" id="email" name="email" required placeholder="Email"><br><br>
+
+            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+
+            <input type= "submit" value="Login">
+
+        </Form>
     </main>
     <footer>&copy;2024 Tyler Harbert</footer>
 </body>
