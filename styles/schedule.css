@@ -1,0 +1,21 @@
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 5rem auto 5rem;
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+table thead tr th {
+    text-align: center;
+} 
+
+table tbody tr td {
+    text-align: center;
+}
+
+table tbody td:first-child {
+    font-weight: bold;
+}
