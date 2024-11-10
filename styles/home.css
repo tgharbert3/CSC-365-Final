@@ -1,28 +1,10 @@
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-header h2, header h3 {
-    display: flex;
-    align-items: center;
-    justify-self: center;
-}
-
-header h4 {
-    justify-self: flex-end;
-    align-self: flex-start;
-}
-
 main {
     width: 100%;
-    display: flex;
-    justify-content: center;
     margin: 2rem 0;
 }
 
 #twitch-embed {
+    margin: 0 auto;
     width: 85%;
-    height: 30rem;
-    
+    height: 25rem;
 }

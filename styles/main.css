@@ -1,5 +1,4 @@
 html {
-    /*background-image: url("../images/Octange.jpg");*/
     background-image: url("../images/apex-legends-logo1.png");
 }
 
@@ -16,7 +15,6 @@ header {
     background: linear-gradient(to bottom right, #E03A3E, #FAF9F6 75%,  #4D6472);
     margin: 0;
     display: flex;
-    flex-basis: 33%;
 }
 
 header h2 {
