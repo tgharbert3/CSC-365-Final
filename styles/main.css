@@ -87,6 +87,13 @@ footer {
     text-align: center;
 }
 
+a {
+    font-size: 125%;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
 #active {
     font-weight: bolder;
 }
