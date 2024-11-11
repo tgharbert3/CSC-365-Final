@@ -7,48 +7,7 @@
     <meta name="keywords">
     <title>Octane Collegiate</title>
     <link rel="stylesheet" href="../styles/main.css">
-    <style>
-        main {
-            display: grid;
-            grid-template-areas:
-            "aside section"
-            "aside section";
-        }
-
-        aside {
-            grid-area: aside;
-            width: 100%;
-        }
-
-        aside ul {
-            width: 75%;
-        }
-
-        aside li {
-            list-style-type: none;
-            border: 1px solid black;
-            background-color: #E03A3E;
-        }
-
-        aside li a {
-            text-decoration: none;
-            text-align: center;
-        }
-
-        aside li a:hover {
-            background-color: #FAF9F6;
-            font-weight: bold;
-        }
-
-        section {
-            margin: 1rem 0;
-        }
-
-        section img {
-            max-width: 750px;
-            width: 100%
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/playoffs.css">
 </head>
 <body>
     <header>
@@ -74,8 +33,21 @@
                 <li><a href="./uppersf.html">Upper Semi-Finals</a></li>
             </ul>
         </aside>
-        <section>
-            <img src="../images/playoffSchedule.jpg" alt="playoff Schedule">
+        <section class="leaderboard">
+            <table id="leaderboard">
+                <thead>
+                    <tr>
+                        <th colspan="2">Leaderboard</th>
+                    </tr>
+                    <tr>
+                        <th class="subhead">Team Name:</th>
+                        <th class="subhead">Total Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>&copy;2024 Tyler Harbert</footer>
