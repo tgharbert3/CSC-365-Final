@@ -1,0 +1,30 @@
+main {
+    display: grid;
+    grid-template-areas: 
+        "confa confb";
+    margin: 1rem 4%;    
+}
+
+#confALeaderboard {
+    margin-right: 1%;
+    grid-area: confa;
+}
+
+#confBLeaderboard {
+    grid-area: confb;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tr td {
+    border: 1px solid black;
+    text-align: center;
+}
