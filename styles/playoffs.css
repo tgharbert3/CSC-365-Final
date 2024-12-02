@@ -1,15 +1,13 @@
 main {
     display: grid;
     grid-template-areas:
-    "aside confa confa confb confb"
-    "aside confa confa confb confb"
-    ". confa confa  confb confb"
-    ". confa confa  confb confb";
+    "aside confa confa confb confb";
+    margin: 1rem 0;
 }
 
 aside {
     grid-area: aside;
-    width: 100%;
+    width: 77.3%;
 }
 
 aside ul {
@@ -35,13 +33,13 @@ aside li a:hover {
 table {
     border: 2px solid black;
     border-collapse: collapse;
-    margin-top: 1rem;
     width: 100%;
 }
 
 .confa {
     grid-area: confa;
     margin-right: .2rem;
+    margin-left: -2rem;
 }
 
 .confa table thead tr th {
