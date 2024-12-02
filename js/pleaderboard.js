@@ -1,5 +1,6 @@
 import { teamArr } from "./premier_teams.js";
-const leaderboard = document.querySelector("tbody")
+const leaderboard = document.querySelector("tbody");
+const printButton = document.querySelector(".printButton");
 
 
 for (let i = 0; i < teamArr.length; i++) {
@@ -17,3 +18,8 @@ for (let i = 0; i < teamArr.length; i++) {
         cell1.style.backgroundColor = "LightYellow";
     }
 }
+
+printButton.addEventListener("click", () => {
+    console.log("print button was clicked.")
+    print();
+});

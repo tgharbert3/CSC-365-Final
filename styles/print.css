@@ -1,0 +1,20 @@
+header {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+body {
+    border: none;
+}
+
+footer {
+    display: none;
+}
+
+.printButton {
+    display: none;
+}
+

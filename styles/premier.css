@@ -20,3 +20,7 @@ table tr td {
     text-align: center;
 }
 
+.printButton {
+    border-radius: 20%;
+}
+
