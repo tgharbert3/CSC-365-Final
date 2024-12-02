@@ -32,14 +32,17 @@
             <h3 id="login"><a href="../sign-in/index.html">Login</a></h3>
             <h3 id="create"><a href="index.html">Create Account</a></h3>
         </section>
-        <Form action="../user/index.html" method="get">
-            <input type="text" id="username" name="username" required placeholder="Username" autofocus><br><br>
-            <input type="email" id="email" name="email" required placeholder="Email"><br><br>
-            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
-            <input type="password" id="verify-password" name="verify-password" required placeholder="Verify Password"><br><br>
+        <form action="../user/index.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required autofocus><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="Verify Password"> Verify Password:</label>
+            <input type="password" id="verify-password" name="verify-password" required><br><br>
             <input type= "submit" value="Create Account">
-
-        </Form>
+        </form>
     </main>
     <footer>&copy;2024 Tyler Harbert</footer>
 </body>
