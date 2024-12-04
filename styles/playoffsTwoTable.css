@@ -1,0 +1,75 @@
+main {
+    display: grid;
+    grid-template-areas:
+    "aside confa confa confb confb";
+    margin: 1rem 0;
+}
+
+aside {
+    grid-area: aside;
+    width: 77.3%;
+}
+
+aside ul {
+    width: 75%;
+}
+
+aside li {
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: #E03A3E;
+}
+
+aside li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+aside li a:hover {
+    background-color: #FAF9F6;
+    font-weight:bold;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.confa {
+    grid-area: confa;
+    margin-right: .2rem;
+    margin-left: -2rem;
+}
+
+.confa table thead tr th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.confa table tbody tr td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.confb {
+    grid-area: confb;
+    margin-right: .2rem;
+}
+
+.confb table thead tr th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.confb table tbody tr td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#active {
+    font-weight: bolder;
+}
+
+
+

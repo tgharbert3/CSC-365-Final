@@ -7,7 +7,7 @@
     <meta name="keywords">
     <title>Octane Collegiate</title>
     <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/playoffs.css">
+    <link rel="stylesheet" href="../styles/playoffsTwoTable.css">
 </head>
 <body>
     <header>
@@ -31,17 +31,17 @@
             <ul>
                 <li><a href="./open-lcq.html">Open LCQ</a></li>
                 <li><a href="./lowersf.html">Lower Semi-Finals</a></li>
-                <li><a href="./uppersf.html">Upper Semi-Finals</a></li>
+                <li><a  id="active" href="./uppersf.html">Upper Semi-Finals</a></li>
                 <li><a href="./lowerFinals.html">Lower Finals</a></li>
                 <li><a href="./upperFinals.html">Upper Finals</a></li>
                 <li><a href="./stageFinals.html">Stage Finals</a></li>
             </ul>
         </aside>
-        <section class="leaderboard">
-            <table id="leaderboard">
+        <section class="confa">
+            <table id="confALeaderboard">
                 <thead>
                     <tr>
-                        <th colspan="2">Leaderboard</th>
+                        <th colspan="2">Conference A</th>
                     </tr>
                     <tr>
                         <th class="subhead">Team Name:</th>
@@ -49,11 +49,26 @@
                     </tr>
                 </thead>
                 <tbody>
-
+                </tbody>
+            </table>
+        </section>
+        <section class="confb">
+            <table id="confBLeaderboard">
+                <thead>
+                    <tr>
+                        <th colspan="2">Conference B</th>
+                    </tr>
+                    <tr>
+                        <th class="subhead">Team Name:</th>
+                        <th class="subhead">Total Score</th>
+                    </tr>
+                </thead>
+                <tbody>
                 </tbody>
             </table>
         </section>
     </main>
     <footer>&copy;2024 Tyler Harbert</footer>
+    <script type="module" src="../js/openLCQ.js"></script>
 </body>
 </html>

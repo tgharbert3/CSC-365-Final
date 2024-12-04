@@ -7,6 +7,7 @@
     <meta name="keywords">
     <title>Octane Collegiate</title>
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/playoffsOneTable.css">
 </head>
 <body>
     <header>
@@ -31,12 +32,26 @@
                 <li><a href="./open-lcq.html">Open LCQ</a></li>
                 <li><a href="./lowersf.html">Lower Semi-Finals</a></li>
                 <li><a href="./uppersf.html">Upper Semi-Finals</a></li>
-                <li><a href="./lowerFinals.html">Lower Finals</a></li>
+                <li><a id="active" href="./lowerFinals.html">Lower Finals</a></li>
                 <li><a href="./upperFinals.html">Upper Finals</a></li>
                 <li><a href="./stageFinals.html">Stage Finals</a></li>
             </ul>
         </aside>
+        <table id="leaderboard">
+            <thead>
+                <tr>
+                    <th colspan="2">Leaderboard</th>
+                </tr>
+                <tr>
+                    <th class="subhead">Team Name:</th>
+                    <th class="subhead">Total Score</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     </main>
     <footer>&copy;2024 Tyler Harbert</footer>
+    <script type="module" src="../js/pleaderboard.js"></script>
 </body>
 </html>
