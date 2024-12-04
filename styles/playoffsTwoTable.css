@@ -67,7 +67,7 @@ table {
     border: 1px solid black;
 }
 
-#active {
+.active {
     font-weight: bolder;
 }
 

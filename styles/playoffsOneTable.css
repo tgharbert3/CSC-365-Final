@@ -50,6 +50,6 @@ table tr td {
     text-align: center;
 }
 
-#active {
+.active {
     font-weight: bolder;
 }
